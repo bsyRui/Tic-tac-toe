@@ -52,7 +52,7 @@
         ElseIf F2players.Btn00.Text.Equals("o") And F2players.Btn11.Text.Equals("o") And F2players.Btn22.Text.Equals("o") = True Or
            F2players.Btn02.Text.Equals("o") And F2players.Btn11.Text.Equals("o") And F2players.Btn20.Text.Equals("o") = True Then
             MessageBox.Show("p2 win")
-        ElseIf F2players.jogadas = 9 Then
+        ElseIf jogadas = 9 Then
             MessageBox.Show("empate")
         End If
     End Sub
