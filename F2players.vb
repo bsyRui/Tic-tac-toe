@@ -1,11 +1,7 @@
 ﻿Public Class F2players
 
     Public btns As Label(,) = {{Btn00, Btn01, Btn02}, {Btn10, Btn11, Btn12}, {Btn20, Btn21, Btn22}}
-
-    Public jogadas = 0
     Public Sub F2players_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-
     End Sub
 
     Private Sub Btn00_Click(sender As Object, e As EventArgs) Handles Btn00.Click
