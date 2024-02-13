@@ -7,12 +7,12 @@
         If rooster(i, j) = 0 Then
             verify = True
             rooster(i, j) = 1
-            If F2players.jogadas Mod 2 = 0 Then
+            If jogadas Mod 2 = 0 Then
                 val = "x"
             Else
                 val = "o"
             End If
-            F2players.jogadas += 1
+            jogadas += 1
             'Return val
         Else
             MessageBox.Show("no")
