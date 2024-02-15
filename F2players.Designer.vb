@@ -150,7 +150,7 @@ Partial Class F2players
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(72, 290)
+        Me.Label1.Location = New System.Drawing.Point(73, 293)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(114, 48)
         Me.Label1.TabIndex = 10
