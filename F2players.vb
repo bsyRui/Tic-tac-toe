@@ -1,6 +1,6 @@
 ﻿Public Class F2players
 
-    Public btns As Label(,) = {{Btn00, Btn01, Btn02}, {Btn10, Btn11, Btn12}, {Btn20, Btn21, Btn22}}
+    Public btns As Control(,) = {{Btn00, Btn01, Btn02}, {Btn10, Btn11, Btn12}, {Btn20, Btn21, Btn22}}
     Public Sub F2players_Load(sender As Object, e As EventArgs) Handles MyBase.Load
     End Sub
 
@@ -70,10 +70,13 @@
     End Sub
 
     Private Sub BtnRestart_Click(sender As Object, e As EventArgs) Handles BtnRestart.Click
+        Dim v = ""
         For i = 0 To 2
             For j = 0 To 2
-                btns(i, j).Text = " "
+                btns(i, j).Text = ""
                 rooster(i, j) = 0
+
+
             Next
             i += 1
         Next

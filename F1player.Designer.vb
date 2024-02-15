@@ -131,7 +131,7 @@ Partial Class F1player
         '
         'Btn00
         '
-        Me.Btn00.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Btn00.BackColor = System.Drawing.Color.Transparent
         Me.Btn00.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn00.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Btn00.Location = New System.Drawing.Point(308, 80)
