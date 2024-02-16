@@ -1,5 +1,7 @@
 # Tic tac toe
-
+O programa contém um login Default: admin com sua senha publica admin,
+para caso a funcionalidade sql estiver indisponível.
+Codigo apenas demonstrativo para uso profissional.
 # FLOGIN ( form Login)
 
 ## Form_Load
