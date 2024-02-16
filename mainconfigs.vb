@@ -21,6 +21,9 @@
     End Sub
 
     Public Sub winmechanism()
+        If jogadas = 9 Then
+            MessageBox.Show("empate")
+        End If
         'horizontal x
         If F2players.Btn00.Text.Equals("x") And F2players.Btn01.Text.Equals("x") And F2players.Btn02.Text.Equals("x") = True Or
            F2players.Btn10.Text.Equals("x") And F2players.Btn11.Text.Equals("x") And F2players.Btn12.Text.Equals("x") = True Or
@@ -52,9 +55,9 @@
         ElseIf F2players.Btn00.Text.Equals("o") And F2players.Btn11.Text.Equals("o") And F2players.Btn22.Text.Equals("o") = True Or
            F2players.Btn02.Text.Equals("o") And F2players.Btn11.Text.Equals("o") And F2players.Btn20.Text.Equals("o") = True Then
             MessageBox.Show("p2 win")
-        ElseIf jogadas = 9 Then
-            MessageBox.Show("empate")
+
         End If
+
     End Sub
 
     Public Sub paths()
