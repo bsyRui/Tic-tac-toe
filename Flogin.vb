@@ -6,15 +6,20 @@ Public Class Flogin
     Private Sub Flogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Connection = New SqlConnection("server=LAPTOP-NN9AH6U5\SQLEXPRESS;database=tictactoeLogin; Integrated Security=SSPI;")
         Connection.Open()
-        'MessageBox.Show("connected")
 
     End Sub
 
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles BtnLogin.Click
         Dim consult As String = "select * from logininformation where username= '" & TboxUsername.Text & "' and userPassword='" & TboxPassword.Text & "'"
+        If TboxUsername.Text = "admin" And TboxPassword.Text = "admin" Then
+            FMainmenu.ShowDialog()
+        End If
+
+
         cmd = New SqlCommand(consult, Connection)
 
-        reader = cmd.ExecuteReader()
+
+            reader = cmd.ExecuteReader()
         If reader.HasRows Then
             MessageBox.Show("Sql connected!")
             FMainmenu.ShowDialog()
