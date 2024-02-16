@@ -79,6 +79,18 @@
     <Compile Include="F2pLobby.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FAjuda.Designer.vb">
+      <DependentUpon>FAjuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FAjuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fwinner.Designer.vb">
+      <DependentUpon>Fwinner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fwinner.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mainconfigs.vb" />
     <Compile Include="F1player.Designer.vb">
       <DependentUpon>F1player.vb</DependentUpon>
@@ -137,11 +149,17 @@
     <EmbeddedResource Include="F2pLobby.resx">
       <DependentUpon>F2pLobby.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FAjuda.resx">
+      <DependentUpon>FAjuda.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Flogin.resx">
       <DependentUpon>Flogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FMainmenu.resx">
       <DependentUpon>FMainmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fwinner.resx">
+      <DependentUpon>Fwinner.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -211,6 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BackgroundMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundWinner.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

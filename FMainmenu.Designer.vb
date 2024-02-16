@@ -24,6 +24,7 @@ Partial Class FMainmenu
     Private Sub InitializeComponent()
         Me.Btn1player = New System.Windows.Forms.Button()
         Me.Btn2Player = New System.Windows.Forms.Button()
+        Me.BtnAjuda = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Btn1player
@@ -44,12 +45,22 @@ Partial Class FMainmenu
         Me.Btn2Player.Text = "2 players"
         Me.Btn2Player.UseVisualStyleBackColor = True
         '
+        'BtnAjuda
+        '
+        Me.BtnAjuda.Location = New System.Drawing.Point(715, 12)
+        Me.BtnAjuda.Name = "BtnAjuda"
+        Me.BtnAjuda.Size = New System.Drawing.Size(116, 23)
+        Me.BtnAjuda.TabIndex = 2
+        Me.BtnAjuda.Text = "Ajuda"
+        Me.BtnAjuda.UseVisualStyleBackColor = True
+        '
         'FMainmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.roosterTacticaltoe.My.Resources.Resources.BackgroundMenu
         Me.ClientSize = New System.Drawing.Size(844, 501)
+        Me.Controls.Add(Me.BtnAjuda)
         Me.Controls.Add(Me.Btn2Player)
         Me.Controls.Add(Me.Btn1player)
         Me.Name = "FMainmenu"
@@ -60,4 +71,5 @@ Partial Class FMainmenu
 
     Friend WithEvents Btn1player As Button
     Friend WithEvents Btn2Player As Button
+    Friend WithEvents BtnAjuda As Button
 End Class

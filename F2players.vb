@@ -4,6 +4,7 @@
     Public Sub F2players_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LblP1.Text = namep1
         LblP2.Text = namep2
+        LblPTurns.Text = namep1
     End Sub
 
     Private Sub Btn00_Click(sender As Object, e As EventArgs) Handles Btn00.Click
@@ -84,6 +85,7 @@
         Btn21.Text = ""
         Btn22.Text = ""
         jogadas = 0
+        win = 0
     End Sub
 
 End Class

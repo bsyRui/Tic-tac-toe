@@ -33,7 +33,7 @@ Public Class Flogin
         "Values ('" & Newusername & "','" & NewPassword & "')"
         cmd = New SqlCommand(createAccount, Connection)
         reader = cmd.ExecuteReader()
-
+        MessageBox.Show("conta criada com succeso!")
 
     End Sub
 End Class
