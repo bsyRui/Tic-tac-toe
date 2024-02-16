@@ -70,19 +70,18 @@
     End Sub
 
     Private Sub BtnRestart_Click(sender As Object, e As EventArgs) Handles BtnRestart.Click
-        Dim v = ""
-        For i = 0 To 2
-            For j = 0 To 2
-                btns(i, j).Text = ""
-                rooster(i, j) = 0
 
-
-            Next
-            i += 1
-        Next
+        rooster = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}
+        Btn00.Text = ""
+        Btn01.Text = ""
+        Btn02.Text = ""
+        Btn10.Text = ""
+        Btn11.Text = ""
+        Btn12.Text = ""
+        Btn20.Text = ""
+        Btn21.Text = ""
+        Btn22.Text = ""
         jogadas = 0
-
     End Sub
-
 
 End Class
