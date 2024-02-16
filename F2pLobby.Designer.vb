@@ -33,6 +33,7 @@ Partial Class F2pLobby
         Me.BtnVenom = New System.Windows.Forms.Label()
         Me.BtnSonic = New System.Windows.Forms.Label()
         Me.BtnTwelve = New System.Windows.Forms.Label()
+        Me.BtnNext = New System.Windows.Forms.Button()
         CType(Me.PboxP2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PboxP1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -135,12 +136,22 @@ Partial Class F2pLobby
         Me.BtnTwelve.Size = New System.Drawing.Size(126, 114)
         Me.BtnTwelve.TabIndex = 10
         '
+        'BtnNext
+        '
+        Me.BtnNext.Location = New System.Drawing.Point(658, 24)
+        Me.BtnNext.Name = "BtnNext"
+        Me.BtnNext.Size = New System.Drawing.Size(233, 41)
+        Me.BtnNext.TabIndex = 11
+        Me.BtnNext.Text = "Next"
+        Me.BtnNext.UseVisualStyleBackColor = True
+        '
         'F2pLobby
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.roosterTacticaltoe.My.Resources.Resources.lobby96x54
         Me.ClientSize = New System.Drawing.Size(944, 501)
+        Me.Controls.Add(Me.BtnNext)
         Me.Controls.Add(Me.BtnTwelve)
         Me.Controls.Add(Me.BtnSonic)
         Me.Controls.Add(Me.BtnVenom)
@@ -171,4 +182,5 @@ Partial Class F2pLobby
     Friend WithEvents BtnVenom As Label
     Friend WithEvents BtnSonic As Label
     Friend WithEvents BtnTwelve As Label
+    Friend WithEvents BtnNext As Button
 End Class

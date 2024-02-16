@@ -45,6 +45,18 @@
         End If
     End Sub
 
+    Private Sub BtnTwelve_Click(sender As Object, e As EventArgs) Handles BtnTwelve.Click
+        If p1 = 0 Then
+            PboxP1.Image = My.Resources.twelveP1
+        Else
+            PboxP2.Image = My.Resources.twelveP1
+        End If
+    End Sub
+
+    Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles BtnNext.Click
+        F2players.ShowDialog()
+    End Sub
+
     Private Sub BtnRyu_Click(sender As Object, e As EventArgs) Handles BtnRyu.Click
         If p1 = 0 Then
             PboxP1.Image = My.Resources.ryuSkinp2
