@@ -47,7 +47,7 @@ Dim consult As String = "select * from logininformation where username= '" & Tbo
 3. Visualizaçao e exemplo de contas disponíveis
 ![[Pasted image 20240213165021.png]]
 
-Quando fores criar uma, irá dar erro mas se fores logar irá funcionar recomendo nao fazeres ainda sem mim
+
 
 4. Botão de registro
 ```vb
