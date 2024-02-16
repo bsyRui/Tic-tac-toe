@@ -33,6 +33,9 @@ Partial Class F2players
         Me.Btn22 = New System.Windows.Forms.Label()
         Me.LblP1 = New System.Windows.Forms.Label()
         Me.BtnRestart = New System.Windows.Forms.Button()
+        Me.LblP2 = New System.Windows.Forms.Label()
+        Me.LblPTurns = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btn00
@@ -156,7 +159,7 @@ Partial Class F2players
         '
         Me.LblP1.BackColor = System.Drawing.Color.Transparent
         Me.LblP1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblP1.Location = New System.Drawing.Point(78, 291)
+        Me.LblP1.Location = New System.Drawing.Point(87, 368)
         Me.LblP1.Name = "LblP1"
         Me.LblP1.Size = New System.Drawing.Size(114, 48)
         Me.LblP1.TabIndex = 10
@@ -172,12 +175,48 @@ Partial Class F2players
         Me.BtnRestart.Text = "Restart"
         Me.BtnRestart.UseVisualStyleBackColor = True
         '
+        'LblP2
+        '
+        Me.LblP2.BackColor = System.Drawing.Color.Transparent
+        Me.LblP2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblP2.Location = New System.Drawing.Point(764, 377)
+        Me.LblP2.Name = "LblP2"
+        Me.LblP2.Size = New System.Drawing.Size(114, 48)
+        Me.LblP2.TabIndex = 12
+        Me.LblP2.Text = "P1"
+        Me.LblP2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LblPTurns
+        '
+        Me.LblPTurns.BackColor = System.Drawing.Color.Transparent
+        Me.LblPTurns.Font = New System.Drawing.Font("Microsoft New Tai Lue", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPTurns.Location = New System.Drawing.Point(45, 55)
+        Me.LblPTurns.Name = "LblPTurns"
+        Me.LblPTurns.Size = New System.Drawing.Size(113, 40)
+        Me.LblPTurns.TabIndex = 13
+        Me.LblPTurns.Text = "___"
+        Me.LblPTurns.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(62, 31)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 25)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Turn:"
+        '
         'F2players
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.roosterTacticaltoe.My.Resources.Resources.backgroundGame54x96
         Me.ClientSize = New System.Drawing.Size(944, 501)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.LblPTurns)
+        Me.Controls.Add(Me.LblP2)
         Me.Controls.Add(Me.BtnRestart)
         Me.Controls.Add(Me.LblP1)
         Me.Controls.Add(Me.Btn22)
@@ -193,6 +232,7 @@ Partial Class F2players
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "F2players"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -207,4 +247,7 @@ Partial Class F2players
     Friend WithEvents Btn22 As Label
     Friend WithEvents LblP1 As Label
     Friend WithEvents BtnRestart As Button
+    Friend WithEvents LblP2 As Label
+    Friend WithEvents LblPTurns As Label
+    Friend WithEvents Label1 As Label
 End Class

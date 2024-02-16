@@ -2,6 +2,8 @@
 
     Public btns As Control(,) = {{Btn00, Btn01, Btn02}, {Btn10, Btn11, Btn12}, {Btn20, Btn21, Btn22}}
     Public Sub F2players_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        LblP1.Text = namep1
+        LblP2.Text = namep2
     End Sub
 
     Private Sub Btn00_Click(sender As Object, e As EventArgs) Handles Btn00.Click

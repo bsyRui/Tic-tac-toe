@@ -28,7 +28,7 @@ Partial Class FMainmenu
         '
         'Btn1player
         '
-        Me.Btn1player.Location = New System.Drawing.Point(193, 92)
+        Me.Btn1player.Location = New System.Drawing.Point(267, 179)
         Me.Btn1player.Name = "Btn1player"
         Me.Btn1player.Size = New System.Drawing.Size(293, 53)
         Me.Btn1player.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class FMainmenu
         '
         'Btn2Player
         '
-        Me.Btn2Player.Location = New System.Drawing.Point(193, 208)
+        Me.Btn2Player.Location = New System.Drawing.Point(267, 341)
         Me.Btn2Player.Name = "Btn2Player"
         Me.Btn2Player.Size = New System.Drawing.Size(293, 53)
         Me.Btn2Player.TabIndex = 1
@@ -48,7 +48,8 @@ Partial Class FMainmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = Global.roosterTacticaltoe.My.Resources.Resources.BackgroundMenu
+        Me.ClientSize = New System.Drawing.Size(844, 501)
         Me.Controls.Add(Me.Btn2Player)
         Me.Controls.Add(Me.Btn1player)
         Me.Name = "FMainmenu"

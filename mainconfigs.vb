@@ -1,6 +1,7 @@
 ﻿Module mainconfigs
     Public jogadas = 0
     Public val As String
+    Public namep1, namep2 As String
     Public verify As Boolean
     Public rooster As Integer(,) = New Integer(2, 2) {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}
     Public Sub game(i As Integer, j As Integer)
@@ -9,8 +10,10 @@
             rooster(i, j) = 1
             If jogadas Mod 2 = 0 Then
                 val = "x"
+                F2players.LblPTurns.Text = namep2
             Else
                 val = "o"
+                F2players.LblPTurns.Text = namep1
             End If
             jogadas += 1
             'Return val

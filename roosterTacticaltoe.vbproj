@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="F2pLobby.Designer.vb">
+      <DependentUpon>F2pLobby.vb</DependentUpon>
+    </Compile>
+    <Compile Include="F2pLobby.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mainconfigs.vb" />
     <Compile Include="F1player.Designer.vb">
       <DependentUpon>F1player.vb</DependentUpon>
@@ -128,6 +134,9 @@
     <EmbeddedResource Include="F2players.resx">
       <DependentUpon>F2players.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F2pLobby.resx">
+      <DependentUpon>F2pLobby.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Flogin.resx">
       <DependentUpon>Flogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +184,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\backgroundGame54x96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobby86x54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobby96x54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryuSkinp2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shunliP1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sonic Madlad Swag GIF - Sonic Madlad Swag Peace - Discover &amp; Share GIFs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twelveP1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venomP1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegeta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMenu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

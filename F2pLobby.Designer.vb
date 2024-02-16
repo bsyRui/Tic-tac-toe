@@ -44,6 +44,7 @@ Partial Class F2pLobby
         Me.PboxP2.Location = New System.Drawing.Point(655, 149)
         Me.PboxP2.Name = "PboxP2"
         Me.PboxP2.Size = New System.Drawing.Size(248, 315)
+        Me.PboxP2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PboxP2.TabIndex = 0
         Me.PboxP2.TabStop = False
         '
