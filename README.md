@@ -2,6 +2,10 @@
 O programa contém um login Default: admin com sua senha publica admin,
 para caso a funcionalidade sql estiver indisponível.
 Codigo apenas demonstrativo para uso profissional.
+
+Imagens todas alteradas e não lincenciadas para uso individual, ou profissional.
+com formataçoes 8:4 1920:1080 950: 750 entre outras
+
 # FLOGIN ( form Login)
 
 ## Form_Load
@@ -81,9 +85,9 @@ Dim consult As String = "select * from logininformation where username= '" & Tbo
 ```
 os botões vão ordenadamente de acordo com suas posiçoes no array
 
-| btn00 | btn01 | btn02 |
-| btn10 | btn11 | btn12 |
-| btn20 | btn21 | btn22 |
+| btn00 | btn01 | btn02 |<br>
+| btn10 | btn11 | btn12 |<br>
+| btn20 | btn21 | btn22 |<br>
 
 2. o if é para verificar sempre que vão tentar prencher um local ja preenchido
 ```vb
